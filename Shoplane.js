@@ -1,7 +1,7 @@
 console.log("jquery begin")
 $(document).ready(function (e) {
   document.getElementById("cart-wrapper").addEventListener("click", function () {
-    window.open("Checkout.html", "_self");
+    window.open("checkout.html", "_self");
 
 
   })
