@@ -75,10 +75,11 @@ $(document).ready(function (e) {
       }
     }
     var itemCount = JSON.parse(localStorage.getItem('ListItem'))
+    if(itemCount !=null){
     var Counting = Object.values(itemCount)
     var cartCount = Counting.reduce((a, b) => {
       return a + b
-    }, 0)
+    }, 0)}
     console.log(cartCount)
     $('#cart-count').text(cartCount)
   });
