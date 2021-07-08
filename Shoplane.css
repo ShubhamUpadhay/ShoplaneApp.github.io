@@ -291,4 +291,8 @@ img {
         bottom: 20px;
         right: 20px;
     }
+    #clothing,#accessory{
+        
+        margin-top: 10%;
+    }
 }
