@@ -262,3 +262,33 @@ img {
     padding: 0;
     box-sizing: border-box;
 }
+@media (max-width:415px) {
+    .card1 {
+        width: 100%;
+        margin: 0;
+        margin-top: 10px;
+    }
+    nav > div:nth-of-type(2) {
+        display: none;
+    }
+    nav > div:nth-of-type(1) > a {
+        display: none;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+    footer > div {
+        width: 100%;
+        padding: 0;
+    }
+    h2 {
+        margin-left: 0;
+        text-align: center;
+    }
+    body > img {
+        width: 100px;
+        bottom: 20px;
+        right: 20px;
+    }
+}

@@ -65,6 +65,8 @@ $(document).ready(function () {
           else
             d.style.border = "0px";
         }
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
       })
     }
     var e = document.getElementById("0");

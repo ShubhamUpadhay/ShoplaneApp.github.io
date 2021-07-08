@@ -226,3 +226,37 @@ footer > div:first-of-type {
     font-size: 14px;
     opacity: 0.8;
 }
+@media (max-width:415px) {
+    #search-wrapper {
+        display: none;
+    }
+    #left-menu > a {
+        display: none;
+    }
+    #edyoda-projects-logo {
+        width: 100px;
+        bottom: 20px;
+        right: 20px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+    footer > div {
+        width: 100%;
+        padding: 0;
+    }
+ 
+    .main-heading {
+        font-size: 25px;
+    }
+    
+    .section-heading {
+        font-size: 18px;
+        padding: 8px;
+        margin-bottom: 0;
+    }
+    main {
+        min-height: 60vh;
+    }
+}

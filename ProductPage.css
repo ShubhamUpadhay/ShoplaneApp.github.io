@@ -290,3 +290,42 @@ body > img {
     color: white;
  
 }
+@media (max-width:730px){
+    section {
+        flex-direction: column;
+    }
+    section > div:nth-of-type(1){
+        width: 100%;
+    }
+    section > div:nth-of-type(2){
+        width: 100%;
+    }
+ 
+    body > img {
+        width: 100px;
+        bottom: 20px;
+        right: 20px;
+    }
+        nav > div:nth-of-type(2) {
+            display: none;
+        }
+        nav > div:nth-of-type(1) > a {
+            display: none;
+        }
+        footer {
+            display: flex;
+            flex-direction: column;
+        }
+        footer > div {
+            width: 100%;
+            padding: 0;
+        }
+ 
+        h1 {
+            font-size: 25px;
+            margin-top: 5px;
+        }
+        #btn-add-to-cart {
+            margin-top: 0px;
+        }
+}

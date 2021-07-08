@@ -268,3 +268,50 @@ footer>div:first-of-type {
     box-sizing: border-box;
     padding: 4% 8%;
 }
+@media (max-width:415px) {
+    #search-wrapper {
+        display: none;
+    }
+    #left-menu > a {
+        display: none;
+    }
+    #edyoda-projects-logo {
+        width: 100px;
+        bottom: 20px;
+        right: 20px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+    footer > div {
+        width: 100%;
+        padding: 0;
+    }
+    #content-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+    
+    #content-wrapper > div:first-of-type {
+        width: 80%;
+        margin: 0 auto;
+        max-height: 70vh;
+        height: min-content;
+        overflow-y: auto;
+    }
+    
+    #content-wrapper > div:last-of-type {
+      
+        width: 80%;
+        height: fit-content;
+        margin: 0 auto;
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    
+}
