@@ -89,11 +89,11 @@ $(document).ready(function () {
           type:"POST",
           url:"https://5d76bf96515d1a0014085cf9.mockapi.io/order",
           data:xx,
-          statusCode:
-           {
-            404: ()=>console.log( "page not found" ),
-            400: ()=>console.log("yehi dikkat h")
-          },
+          // statusCode:
+          //  {
+          //   404: ()=>alert( "page not found" ),
+          //   400: ()=>alert("404 aya hai yahi sari dikkat h")
+          // },
          success:()=>{
                         window.alert("Order Placed")
                         window.open("thankyou.html", "_self");
